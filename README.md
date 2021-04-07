@@ -1,24 +1,5 @@
-# README
+# Magic Mouse
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Magic Mouse is a web application initiated while attending Flatiron School using React Redux that communicates with the backend Ruby on Rails API. It is a Disney theme park app that allows guests to track their Disney theme park experience by counting the rides and attractions completed during a trip.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please view the frontend of [Magic Mouse](https://github.com/cglorious/magic-mouse-frontend) for installation guide.
