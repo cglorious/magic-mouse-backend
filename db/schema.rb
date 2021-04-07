@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_07_145957) do
+ActiveRecord::Schema.define(version: 2021_04_07_151650) do
+
+  create_table "lands", force: :cascade do |t|
+    t.string "name"
+    t.string "image_url"
+    t.string "description"
+    t.integer "park_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["park_id"], name: "index_lands_on_park_id"
+  end
 
   create_table "parks", force: :cascade do |t|
     t.string "name"
@@ -29,5 +39,6 @@ ActiveRecord::Schema.define(version: 2021_04_07_145957) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "lands", "parks"
   add_foreign_key "parks", "resorts"
 end
