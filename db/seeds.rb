@@ -8,7 +8,8 @@
 
 Resort.delete_all
 
-disneyland = Resort.create(
+#Resorts
+dl = Resort.create(
   name: "Disneyland Resort",
   image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/2/1280/720/75/dam/disneyland/home/destination/sleeping-beauty-castle-tint-16x9.jpg",
   location: "Anaheim, CA, USA"
@@ -23,3 +24,20 @@ tokyo = Resort.create(
   image_url: "https://www.slashfilm.com/wp/wp-content/images/tokyo-disneyland-e1592926525256.jpeg",
   location: "Tokyo, Japan"
 )
+
+#Parks
+disneyland = Park.create(
+  name: "Disneyland",
+  image_url: "https://insidethemagic-119e2.kxcdn.com/wp-content/uploads/2020/03/Disneyland-Entrance.jpg",
+  resort_id: dl.id
+)
+ca_adventure = Park.create(
+  name: "California Adventure",
+  image_url: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2021%2F02%2F09%2Fdisney-dining-DIS0221-2000.jpg",
+  resort_id: dl.id
+)
+
+#Lands
+
+
+#Attractions
