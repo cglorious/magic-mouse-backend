@@ -6,7 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Resort.delete_all
+# Dir[File.join(Rails.root, 'db', 'seeds', '*.rb')].sort.each { |seed| load seed }
+
+# Dir[File.join(Rails.root, 'db', 'seeds/*', '*.rb')].sort.each do |seed|
+#   load seed
+# end
 
 #Resorts
 dl = Resort.create(
@@ -25,7 +29,7 @@ tokyo = Resort.create(
   location: "Tokyo, Japan"
 )
 
-#Parks
+Parks
 disneyland = Park.create(
   name: "Disneyland",
   image_url: "https://insidethemagic-119e2.kxcdn.com/wp-content/uploads/2020/03/Disneyland-Entrance.jpg",
@@ -37,7 +41,7 @@ ca_adventure = Park.create(
   resort_id: dl.id
 )
 
-#Lands
+Lands
 star_wars = Land.create(
   name: "Star Wars: Galaxy's Edge",
   image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/434/244/75/dam/disneyland/events-tours/disneyland/plan-star-wars-galaxys-edge/courtyard-wide-galaxys-edge-16x9.jpg?1605284178492",
@@ -93,4 +97,4 @@ nola = Land.create(
   park_id: disneyland.id
 )
 
-#Attractions
+Attractions
