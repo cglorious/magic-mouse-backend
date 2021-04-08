@@ -1,12 +1,12 @@
 ## User Stories
 
 ### MVP
-- [] As Coco I want to view by resort so I can track where I’ve been.
-- [] As Coco I want ride counter feature so I know how many times I rode a ride.
+- As Coco I want to view by resort so I can track where I’ve been.
+- As Coco I want ride counter feature so I know how many times I rode a ride.
 
 ### Stretch
-- [] As Coco I want to track my trips so I know when I visited the park.
-- [] As Coco I want to log in so I can track how many visits I have.
+- As Coco I want to track my trips so I know when I visited the park.
+- As Coco I want to log in so I can track how many visits I have.
 
 
 ## Models
