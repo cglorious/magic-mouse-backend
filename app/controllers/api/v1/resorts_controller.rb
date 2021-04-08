@@ -1,8 +1,13 @@
 class Api::V1::ResortsController < ApplicationController
 
   def index
-    categories = Category.all
-    render json: categories
+    resorts = Resort.all
+    render json: resorts
+  end
+
+  def show
+    resort = Resort.find(params[:id])
+    render json: resort
   end
 
 end
