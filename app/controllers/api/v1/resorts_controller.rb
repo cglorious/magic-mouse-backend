@@ -1,2 +1,2 @@
-class ResortsController < ApplicationController
+class Api::V1::ResortsController < ApplicationController
 end

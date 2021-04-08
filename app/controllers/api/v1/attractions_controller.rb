@@ -1,2 +1,2 @@
-class AttractionsController < ApplicationController
+class Api::V1::AttractionsController < ApplicationController
 end
