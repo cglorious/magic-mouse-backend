@@ -1,4 +1,4 @@
 class ParkSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :image_url, :resort_id
+  attributes :name, :image_url, :resort_id, :lands
 end
