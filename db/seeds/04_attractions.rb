@@ -22,3 +22,9 @@
   closure: false,
   land: @fantasyland
 )
+@pinocchio = Attraction.create(
+  name: "Pinocchio's Daring Journey",
+  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/disneyland/destinations/disneyland/fantasyland/pinocchios-daring-adventure-1x1.jpg?1604384613389",
+  closure: false,
+  land: @fantasyland
+)
