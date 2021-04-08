@@ -2,12 +2,12 @@ class Api::V1::ResortsController < ApplicationController
 
   def index
     resorts = Resort.all
-    render json: resorts
+    render json: ResortSerializer.new(resorts)
   end
 
   def show
     resort = Resort.find(params[:id])
-    render json: resort
+    render json: ResortSerializer.new(resort)
   end
 
 end
