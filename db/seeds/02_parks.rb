@@ -1,13 +1,13 @@
 #disneyland resort
 @disneyland = Park.create(
   name: "Disneyland",
-  image_url: "https://insidethemagic-119e2.kxcdn.com/wp-content/uploads/2020/03/Disneyland-Entrance.jpg",
+  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/360/75/dam/disneyland/experience-updates/mickey-character-castle-5x2.jpg?1618376955641",
   resort: @dl,
   slug: "/disneyland"
 )
 @ca_adventure = Park.create(
   name: "California Adventure",
-  image_url: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2021%2F02%2F09%2Fdisney-dining-DIS0221-2000.jpg",
+  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/360/75/dam/disneyland/destinations/disney-california-adventure/pixar-pier-render-5x2.jpg?1618378068986",
   resort: @dl,
   slug: "/ca-adventure"
 )
@@ -15,7 +15,7 @@
 #disneyworld resort
 @magic_kingdom = Park.create(
   name: "Magic Kingdom",
-  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/360/75/dam/wdpro-assets/parks-and-tickets/destinations/magic-kingdom/magic-kingdomv3-00-full.jpg?1614975661377",
+  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/434/244/75/dam/wdpro-assets/parks-and-tickets/special-events/disney-after-hours/disney-after-hours-06.jpg?1614975661370",
   resort: @wdw,
   slug: "/magic-kingdom"
 )
