@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_14_003513) do
+ActiveRecord::Schema.define(version: 2021_04_23_021610) do
 
   create_table "attractions", force: :cascade do |t|
     t.string "name"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_04_14_003513) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.boolean "closure", default: false
+    t.integer "count", default: 0
     t.index ["land_id"], name: "index_attractions_on_land_id"
   end
 
