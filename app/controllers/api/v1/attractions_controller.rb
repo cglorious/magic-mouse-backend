@@ -26,7 +26,8 @@ class Api::V1::AttractionsController < ApplicationController
       :name,
       :image_url,
       :closure,
-      :land_id
+      :land_id,
+      :count
     )
   end
 end

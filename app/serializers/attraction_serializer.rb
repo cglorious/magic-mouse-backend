@@ -1,4 +1,4 @@
 class AttractionSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :image_url, :closure, :land_id
+  attributes :name, :image_url, :closure, :land_id, :count
 end
