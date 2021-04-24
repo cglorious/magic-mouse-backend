@@ -19,6 +19,16 @@ class Api::V1::AttractionsController < ApplicationController
     end
   end
 
+  def edit
+    attraction = Attraction.find(params[:id])
+  end
+
+  def update
+    attraction = Attraction.find(params[:id])
+    attraction.update(attraction_params)
+    render json: AttractionSerializer.new(attraction)
+  end
+
   private
 
   def attraction_params
