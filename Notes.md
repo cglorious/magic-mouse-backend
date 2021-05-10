@@ -33,3 +33,6 @@
 ### Stretch
 #### Trip
 #### Guest
+
+##TODO
+- remove closure from attractionsatom
