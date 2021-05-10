@@ -31,6 +31,8 @@
 - [x] :name string, :image_url string, :closure boolean, :land references
 
 ### Stretch
+- ability to toggle open/closed attractions
+
 #### Trip
 #### Guest
 
