@@ -2,15 +2,13 @@
   name: "Star Wars: Galaxy's Edge",
   image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/434/244/75/dam/disneyland/events-tours/disneyland/plan-star-wars-galaxys-edge/courtyard-wide-galaxys-edge-16x9.jpg?1605284178492",
   description: "Explore this out-of-this-world land, where you can live your adventure in a galaxy far, far away!",
-  park: @disneyland,
-  slug: "/star-wars"
+  park: @disneyland
 )
 @fantasyland = Land.create(
   name: "Fantasyland",
   image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/434/244/75/dam/disneyland/destinations/disneyland/new-orleans-square/dlr-castle-day-exterior-16x9.jpg?1605284178493",
   description: "Step into fairy-tale worlds filled with Characters, attractions, entertainment and more!",
-  park: @disneyland,
-  slug: "/fantasyland"
+  park: @disneyland
 )
 @tomorrowland = Land.create(
   name: "Tomorrowland",

@@ -37,7 +37,6 @@ class Api::V1::AttractionsController < ApplicationController
     params.require(:attraction).permit(
       :name,
       :image_url,
-      :closure,
       :land_id,
       :count
     )

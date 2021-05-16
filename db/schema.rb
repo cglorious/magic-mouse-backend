@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_23_021610) do
+ActiveRecord::Schema.define(version: 2021_05_16_211756) do
 
   create_table "attractions", force: :cascade do |t|
     t.string "name"
@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2021_04_23_021610) do
     t.integer "land_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.boolean "closure", default: false
     t.integer "count", default: 0
+    t.string "log"
     t.index ["land_id"], name: "index_attractions_on_land_id"
   end
 
@@ -30,7 +30,6 @@ ActiveRecord::Schema.define(version: 2021_04_23_021610) do
     t.integer "park_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "slug"
     t.index ["park_id"], name: "index_lands_on_park_id"
   end
 
@@ -40,7 +39,6 @@ ActiveRecord::Schema.define(version: 2021_04_23_021610) do
     t.integer "resort_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "slug"
     t.index ["resort_id"], name: "index_parks_on_resort_id"
   end
 
@@ -50,7 +48,6 @@ ActiveRecord::Schema.define(version: 2021_04_23_021610) do
     t.string "location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "slug"
   end
 
   add_foreign_key "attractions", "lands"
