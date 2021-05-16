@@ -38,7 +38,8 @@ class Api::V1::AttractionsController < ApplicationController
       :name,
       :image_url,
       :land_id,
-      :count
+      :count,
+      :log
     )
   end
 end
