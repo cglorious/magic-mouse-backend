@@ -15,26 +15,26 @@
 )
 
 #fantasyland
-@peter_pan = Attraction.create(
-  name: "Peter Pan's Flight",
-  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/disneyland/destinations/disneyland/fantasyland/peter-pan-flight-v2-1x1.jpg?1604384613389",
+@dumbo = Attraction.create(
+  name: "Dumbo the Flying Elephant",
+  image_url: "https://lh5.googleusercontent.com/euk8cg2ILaLiF89yvb7WuqypBRRiuJTfXpuVN4sXsBYOli7MpxKhVawem5H04FxJvF2FFTvLfSKEFh5jdBxa=w2560-h1210-rw",
   land: @fantasyland,
   count: 0,
-  log: "Luckily we rode this towards the end of the day."
+  log: "We hadn't planned to ride this, but the line was short enough that we decided to go for it. There's always a nice view of Fantasyland."
 )
-@tea_party = Attraction.create(
+@alice = Attraction.create(
   name: "Alice in Wonderland",
   image_url: "https://lh4.googleusercontent.com/DillLhWjqbE0qHWiSGfe2fOHOq2dAMOHK4EgUcn7RevLpq6V6EhKRKv2Pn040Y6k1xnWBVtx4rlUJPlPuQPj=w2560-h1210-rw",
   land: @fantasyland,
   count: 0,
   log: "This was Robbie's first ride of the trip. He had a blast. He especially liked the Queen of Hearts and the card soldiers."
 )
-@pinocchio = Attraction.create(
-  name: "Pinocchio's Daring Journey",
-  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/disneyland/destinations/disneyland/fantasyland/pinocchios-daring-adventure-1x1.jpg?1604384613389",
+@small_world = Attraction.create(
+  name: "It's A Small World",
+  image_url: "https://lh3.googleusercontent.com/DN57QHXYaTz4wMcxY7-HMyvD4s6_VzFpIJxODy_okan5NSlaqmRL1vhlhgpSjhuC0QyB1SU-IXgfORDyD-20=w1840-h1210-rw",
   land: @fantasyland,
   count: 0,
-  log: "This was the shortest ride, with a 0 minute wait!"
+  log: "Robbie was a bit tired on this one, but we were able to get our own boat. It was a nice, relaxing trip around the world!"
 )
 
 #tomorrowland
