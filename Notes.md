@@ -16,5 +16,4 @@
 - [x] :name string, :image_url string, :closure boolean, :land references
 
 ##TODO
-- remove closure from attractions
-- add log to attractions
+- update diagram

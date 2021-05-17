@@ -29,13 +29,13 @@
   count: 0,
   log: "This was Robbie's first ride of the trip. He had a blast. He especially liked the Queen of Hearts and the card soldiers."
 )
-@small_world = Attraction.create(
-  name: "It's A Small World",
-  image_url: "https://lh3.googleusercontent.com/DN57QHXYaTz4wMcxY7-HMyvD4s6_VzFpIJxODy_okan5NSlaqmRL1vhlhgpSjhuC0QyB1SU-IXgfORDyD-20=w1840-h1210-rw",
-  land: @fantasyland,
-  count: 0,
-  log: "Robbie was a bit tired on this one, but we were able to get our own boat. It was a nice, relaxing trip around the world!"
-)
+# @small_world = Attraction.create(
+#   name: "It's A Small World",
+#   image_url: "https://lh3.googleusercontent.com/DN57QHXYaTz4wMcxY7-HMyvD4s6_VzFpIJxODy_okan5NSlaqmRL1vhlhgpSjhuC0QyB1SU-IXgfORDyD-20=w1840-h1210-rw",
+#   land: @fantasyland,
+#   count: 0,
+#   log: "Robbie was a bit tired on this one, but we were able to get our own boat. It was a nice, relaxing trip around the world!"
+# )
 
 #tomorrowland
 @buzz = Attraction.create(
