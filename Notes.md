@@ -16,4 +16,3 @@
 - [x] :name string, :image_url string, :closure boolean, :land references
 
 ##TODO
-- update diagram
