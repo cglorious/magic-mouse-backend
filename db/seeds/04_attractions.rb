@@ -23,11 +23,11 @@
   log: "Luckily we rode this towards the end of the day."
 )
 @tea_party = Attraction.create(
-  name: "Mad Tea Party",
-  image_url: "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/disneyland/destinations/disneyland/fantasyland/mad-tea-party-v2-1x1.jpg?1604384613389",
+  name: "Alice in Wonderland",
+  image_url: "https://lh4.googleusercontent.com/DillLhWjqbE0qHWiSGfe2fOHOq2dAMOHK4EgUcn7RevLpq6V6EhKRKv2Pn040Y6k1xnWBVtx4rlUJPlPuQPj=w2560-h1210-rw",
   land: @fantasyland,
   count: 0,
-  log: "We all decided to skip this ride. Instead, we took a picture in the stationary teacup."
+  log: "This was Robbie's first ride of the trip. He had a blast. He especially liked the Queen of Hearts and the card soldiers."
 )
 @pinocchio = Attraction.create(
   name: "Pinocchio's Daring Journey",
@@ -58,7 +58,7 @@
 #critter_country
 @splash_mountain = Attraction.create(
   name: "Splash Mountain",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Splash_Mountain_at_Disneyland.JPG/250px-Splash_Mountain_at_Disneyland.JPG",
+  image_url: "https://lh3.googleusercontent.com/fife/ABSRlIrorNFTFkzCZRa_xyq-EVeKfvsChLqcs2--2dHfyNBfNe5bwATd5SYmzzHyXVOQLgywWI5eS-9hZhDYnFi1Np6GZWfPDK57B120Lfd61UGc83mOFUr4KiqSybBV-X3OwXJKK8jU3NJOK69lrB-fLvaz56GOPYrS5uYtaxid7JtiwRb29HRmMu0YcU-0KsrDjEZhm6yFKgp6oLCqASwIV00Za7pRlLTJ6H9sky4FhWdboMlFn_1Dhv2TV5_cMzn9U_DUTpfL3Z-lHfwuJF7fC_Dc3c2fkxr4dP6mL6FN6X25GPDwHylbsnPy2Pb3Xszni9rbsRrQFhwsQrsn8GF4xSR0PVUPK106h-Agw1Z0XJorssUWUphkw71DzoLCmra2Ym2jY_StcX8k_bPnh7TaDy3Y6V0mWrbv3sfCpyTahW6a2GETaXoPIfJczNLOF6ZgOU_g3qYtyOG2x8eP6hgX4wNF8koabB7nAMqijoTyrxMKGDs2miog_jOJh1g8e6YJypWEwvKFfSlmO4hqfuNAM_iPGmkNxmfwlTdlGFtvFIUxKzJWlRiB10XcvjHtLZgHRsITpuvzout7Ph0wntzPVn5hEyHBF1KLgna9hwBeg8z4OJ3R1aC4tUMMnuXcI8hXGRu7dvbANGvTCLquQqAXD1IvtDo7FMw6ODqrate-CpIi-b3-Zh0yKvOnAQrHasPr1OqUZ_oeJj_KJ-X9m_yfQaL2hhV6t5wyAg=w2560-h1210-ft",
   land: @critter_country,
   count: 0,
   log: "This was our favorite ride of the day; it was Carolyn's first time. Even better - there was a 5 minute wait!"
@@ -67,7 +67,7 @@
 #frontierland
 @big_thunder = Attraction.create(
   name: "Big Thunder Mountain Railroad",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Big_Thunder_Mountain_Entrance_Sign_at_Magic_Kingdom.jpg/250px-Big_Thunder_Mountain_Entrance_Sign_at_Magic_Kingdom.jpg",
+  image_url: "https://lh5.googleusercontent.com/4shF0wHnpz4JAG8dXkAO_qOayTAosdE9PWTNwTUjF6K0PZnXvnrKRCodvJDJkGLutm2Anf3YOtLc7o2FuJFB=w2560-h1210-rw",
   land: @frontierland,
   count: 0,
   log: "Carolyn enjoyed looking at the scenery while in line. And of course, the ride was just as fun as ever!"
